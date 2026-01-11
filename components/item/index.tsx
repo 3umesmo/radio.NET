@@ -9,9 +9,10 @@ interface ItemProps{
     disc: string;
     band: string;
     duration: string;
+    url: string;
 }
 
-export default function Item({imgKey, title,disc, band, duration}:ItemProps){
+export default function Item({imgKey, title,disc, band, duration, url}:ItemProps){
     const router = useRouter();
     
     const selectedImg = ImageMap[imgKey as keyof typeof ImageMap];
@@ -20,7 +21,7 @@ export default function Item({imgKey, title,disc, band, duration}:ItemProps){
         <Pressable onPress={() => {
             router.push({
             pathname: '/item',
-            params: { title, band, imgKey }
+            params: { title, band, imgKey, url }
             });
         }} style={styles.itemContainer}>
             <ImageBackground source={selectedImg} style={styles.itemContent}>

@@ -14,7 +14,7 @@ export default function HomeScreen() {
           <FlatList
             ListHeaderComponent={<Banner title='Radio.NET' subtitle='Coleção das melhores musicas!' imgSrc={bannetImg}/>}
             data={infoItens}
-            renderItem={({item}) => <Item imgKey={item.imgKey} title={item.title} disc={item.disc} band={item.band} duration={item.duration} />}
+            renderItem={({item}) => <Item imgKey={item.imgKey} title={item.title} disc={item.disc} band={item.band} duration={item.duration} url={item.url}/>}
             keyExtractor={item => item.id.toString()}
           />
         </SafeAreaView>

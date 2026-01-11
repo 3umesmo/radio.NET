@@ -15,6 +15,7 @@ export default [
         "band": 'Iron Maiden',
         "duration": '4:12',
         "imgKey": "theTrooper",
+        "url": 'https://www.youtube.com/watch?v=X4bgXH3sJ2Q',
     },
     {
         "id": 2,
@@ -22,7 +23,8 @@ export default [
         "disc": 'Overkill',
         "band": 'Mothörhead',
         "duration": '5:18',
-        "imgKey": "overkill"
+        "imgKey": "overkill",
+        "url": 'https://www.youtube.com/watch?v=MlzTET_8SQg',
     },
     {
         "id": 3,
@@ -30,7 +32,8 @@ export default [
         "disc": 'Painkiller',
         "band": 'Judas Priest',
         "duration": '6:06',
-        "imgKey": "painkiller"
+        "imgKey": "painkiller",
+        "url": 'https://www.youtube.com/watch?v=kO_EdmtR5Ck',
     },
     {
         "id": 4,
@@ -38,7 +41,8 @@ export default [
         "disc": 'Hellbilly Deluze',
         "band": 'Rob Zombie',
         "duration": '3:43',
-        "imgKey": "dragula"
+        "imgKey": "dragula",
+        "url": 'https://www.youtube.com/watch?v=EqQuihD0hoI',
     },
     {
         "id": 5,
@@ -46,7 +50,8 @@ export default [
         "disc": 'Fortress',
         "band": 'Alter Bridge',
         "duration": '7:34',
-        "imgKey": "fortress"
+        "imgKey": "fortress",
+        "url": 'https://www.youtube.com/watch?v=o9HDoy6jO80',
     },
     {
         "id": 6,
@@ -54,7 +59,8 @@ export default [
         "disc": 'Sacrament',
         "band": 'Lamb of God',
         "duration": '3:33',
-        "imgKey": "redneck"
+        "imgKey": "redneck",
+        "url": 'https://www.youtube.com/watch?v=oqdZpxkzNvc',
     },
     {
         "id": 7,
@@ -62,7 +68,8 @@ export default [
         "disc": 'Phenomenom',
         "band": 'U.F.O',
         "duration": '6:29',
-        "imgKey": "rockBottom"
+        "imgKey": "rockBottom",
+        "url": 'https://www.youtube.com/watch?v=aC5806zO_p8',
     },
 ]
 
